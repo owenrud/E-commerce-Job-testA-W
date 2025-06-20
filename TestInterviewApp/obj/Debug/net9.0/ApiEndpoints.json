@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "TestInterviewApp.Controllers.PaymentController",
+    "Method": "CreateSnap",
+    "RelativePath": "api/payment/token/snap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "TestInterviewApp.Models.SnapRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
