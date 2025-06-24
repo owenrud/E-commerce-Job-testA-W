@@ -7,41 +7,85 @@
     <script src = "https://app.sandbox.midtrans.com/snap/snap.js"
          data-client-key="SB-Mid-client-CJhXK_QpQfD8Is7A"></script>
     <script>
+        function generateOrderId(length = 12) {
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            let result = '';
+            for (let i = 0; i < length; i++) {
+                result += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            return 'ORDER-' + result;
+        }
+
         document.getElementById('pay-btn').onclick = async () => {
-          const resp = await fetch('/api/payment/token/snap', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              OrderId: 'ORDER-123',
-              Amount: 50000,
-              Customer: { first_name:'John', last_name:'Doe', email:'a@b.com', phone:'081234' }
-            })
-          });
-          const { token } = await resp.json();
-          snap.pay(token);
+            const orderId = generateOrderId();
+            const amount = parseInt(document.getElementById('amount').value);
+            const fullName = document.getElementById('fullname').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('nohp').value.trim();
+
+            const [first_name, ...rest] = fullName.split(" ");
+            const last_name = rest.join(" ") || "-";
+
+            const response = await fetch("/api/payment/token/snap", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    OrderId: orderId,
+                    Amount: amount,
+                    Customer: {
+                        first_name,
+                        last_name,
+                        email,
+                        phone
+                    }
+                })
+            });
+
+            const data = await response.json();
+            console.log("Snap token response:", data);
+             
+            //  Call Snap with event callbacks
+        window.snap.pay(data.token, {
+            onSuccess: function (result) {
+                alert("Payment success!");
+                console.log("Success:", result);
+            },
+            onPending: function (result) {
+                alert("Waiting for your payment...");
+                console.log("Pending:", result);
+            },
+            onError: function (result) {
+                alert("Payment failed!");
+                console.log("Error:", result);
+            },
+            onClose: function () {
+                alert("You closed the popup without finishing the payment.");
+            }
+        });
         };
     </script>
 }
 <h3> Form Checkout</h3>
 <div class="input-group mb-3">
   <span class="input-group-text" id="basic-addon1"></span>
-  <input type="text" class="form-control" placeholder="Nama" aria-label="Username" aria-describedby="basic-addon1">
+  <input type="text" class="form-control" id="fullname" placeholder="Nama" aria-label="Username" aria-describedby="basic-addon1">
 </div>
 
 <div class="input-group mb-3">
-  <input type="email" class="form-control" placeholder="Email" aria-label="Recipient’s username" aria-describedby="basic-addon2">
+  <input type="email" class="form-control" id="email" placeholder="Email" aria-label="Recipient’s username" aria-describedby="basic-addon2">
 </div>
 
 
 <div class="input-group mb-3"">
     <span class="input-group-text">Alamat</span>
-    <textarea class="form-control" aria-label="With textarea"></textarea>
+    <textarea class="form-control" id="address" aria-label="With textarea"></textarea>
 </div>
 
 <div class="mb-3">
     <input type="number" class="form-control" id="nohp" placeholder="Nomor HP" >
 
 </div>
+<input type="hidden" id="amount" value="@ViewBag.GrandTotal" />
 <div class="row">
     <button id="pay-btn">Pay</button>
 </div>

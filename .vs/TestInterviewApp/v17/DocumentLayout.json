@@ -7,52 +7,56 @@
       "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\services\\midtransservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\services\\midtransservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\models\\snaprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\models\\snaprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\services\\midtransservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\services\\midtransservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\migrations\\20250624074131_updatefreshmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\migrations\\20250624074131_updatefreshmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\models\\snaprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\models\\snaprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\data\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\data\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|d:\\folder belajar coding\\testinterviewapp\\testinterviewapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FB2A2E53-AEF9-46C0-9193-A63CCF55FE11}|TestInterviewApp\\TestInterviewApp.csproj|solutionrelative:testinterviewapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,71 +66,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Program.cs",
-              "RelativeDocumentMoniker": "TestInterviewApp\\Program.cs",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Program.cs",
-              "RelativeToolTip": "TestInterviewApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Models\\Cart.cs",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Models\\Cart.cs",
+              "RelativeToolTip": "TestInterviewApp\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T13:23:08.75Z",
+              "WhenOpened": "2025-06-22T14:59:46.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SnapRequest.cs",
               "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Models\\SnapRequest.cs",
               "RelativeDocumentMoniker": "TestInterviewApp\\Models\\SnapRequest.cs",
               "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Models\\SnapRequest.cs",
               "RelativeToolTip": "TestInterviewApp\\Models\\SnapRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T13:33:30.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MidtransService.cs",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Services\\MidtransService.cs",
-              "RelativeDocumentMoniker": "TestInterviewApp\\Services\\MidtransService.cs",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Services\\MidtransService.cs",
-              "RelativeToolTip": "TestInterviewApp\\Services\\MidtransService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T13:29:50.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "TestInterviewApp\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "TestInterviewApp\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T13:25:57.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\appsettings.json",
-              "RelativeDocumentMoniker": "TestInterviewApp\\appsettings.json",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\appsettings.json",
-              "RelativeToolTip": "TestInterviewApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-20T10:29:55.895Z",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "TestInterviewApp\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAFUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T13:58:39.574Z",
               "EditorCaption": ""
             },
             {
@@ -137,22 +115,23 @@
               "RelativeDocumentMoniker": "TestInterviewApp\\Views\\Cart\\Checkout.cshtml",
               "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Views\\Cart\\Checkout.cshtml",
               "RelativeToolTip": "TestInterviewApp\\Views\\Cart\\Checkout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-20T08:43:19.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TestInterviewApp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TestInterviewApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T10:24:39.779Z"
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TestInterviewApp\\appsettings.json",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\appsettings.json",
+              "RelativeToolTip": "TestInterviewApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T10:29:55.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -162,68 +141,98 @@
               "RelativeDocumentMoniker": "TestInterviewApp\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "TestInterviewApp\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T09:58:23.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "TestInterviewApp\\Views\\Products\\Index.cshtml",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "TestInterviewApp\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T09:54:48.489Z"
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Program.cs",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Program.cs",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Program.cs",
+              "RelativeToolTip": "TestInterviewApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:23:08.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "TestInterviewApp\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "TestInterviewApp\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAUwHMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T13:58:39.574Z"
+              "DocumentIndex": 4,
+              "Title": "MidtransService.cs",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Services\\MidtransService.cs",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Services\\MidtransService.cs",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Services\\MidtransService.cs",
+              "RelativeToolTip": "TestInterviewApp\\Services\\MidtransService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:29:50.907Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CheckoutController.cs",
-              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\CheckoutController.cs",
-              "RelativeDocumentMoniker": "TestInterviewApp\\Controllers\\CheckoutController.cs",
-              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\CheckoutController.cs",
-              "RelativeToolTip": "TestInterviewApp\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:43:52.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "TestInterviewApp\\Controllers\\CartController.cs",
               "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\CartController.cs",
               "RelativeToolTip": "TestInterviewApp\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAADAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T13:59:15.936Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "20250624074131_UpdateFreshMigrate.cs",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Migrations\\20250624074131_UpdateFreshMigrate.cs",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Migrations\\20250624074131_UpdateFreshMigrate.cs",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Migrations\\20250624074131_UpdateFreshMigrate.cs",
+              "RelativeToolTip": "TestInterviewApp\\Migrations\\20250624074131_UpdateFreshMigrate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:41:31.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EcommerceDbContext.cs",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Data\\EcommerceDbContext.cs",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Data\\EcommerceDbContext.cs",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Data\\EcommerceDbContext.cs",
+              "RelativeToolTip": "TestInterviewApp\\Data\\EcommerceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:13:54.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "TestInterviewApp\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:43:52.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TestInterviewApp\\wwwroot\\css\\site.css",
@@ -232,6 +241,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-06-19T09:12:45.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "TestInterviewApp\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Folder Belajar Coding\\TestInterviewApp\\TestInterviewApp\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "TestInterviewApp\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:25:57.659Z",
+              "EditorCaption": ""
             }
           ]
         }

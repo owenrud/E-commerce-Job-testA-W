@@ -1,26 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TestInterviewApp.api;
 using TestInterviewApp.Models;
 
-namespace TestInterviewApp.Controllers
+[Route("api/payment")]
+[ApiController]
+public class PaymentController : ControllerBase
 {
-    [ApiController]
-    [Route("api/payment/token")]
-    public class PaymentController : ControllerBase
-    {
-        private readonly MidtransService _svc;
-        public PaymentController(MidtransService svc) => _svc = svc;
+    private readonly MidtransService _midtrans;
 
-        [HttpPost("snap")]
-        public async Task<IActionResult> CreateSnap([FromBody] SnapRequest req)
+    public PaymentController(MidtransService midtrans)
+    {
+        _midtrans = midtrans;
+    }
+
+    [HttpPost("token/snap")]
+    public async Task<IActionResult> CreateSnap([FromBody] SnapRequest req)
+    {
+        var payload = new
         {
-            var payload = new
+            transaction_details = new
             {
-                transaction_details = new { order_id = req.OrderId, gross_amount = req.Amount },
-                customer_details = req.Customer
-            };
-            var resp = await _svc.CreateSnapTransaction(payload);
-            return Content(resp, "application/json");
-        }
+                order_id = req.OrderId,
+                gross_amount = req.Amount
+            },
+            customer_details = req.Customer
+        };
+
+        var response = await _midtrans.CreateSnapTransaction(payload);
+
+        // Optional: log the response
+        Console.WriteLine(response);
+
+        return Content(response, "application/json");
     }
 }

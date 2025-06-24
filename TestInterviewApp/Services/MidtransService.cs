@@ -2,32 +2,30 @@
 using System.Text;
 using System.Text.Json;
 
-namespace TestInterviewApp.api
+public class MidtransService
 {
-    public class MidtransService
-    {
-        private readonly HttpClient _http;
-        private readonly string _serverKey, _baseUrl;
-        public MidtransService(HttpClient http, IConfiguration cfg)
-        {
-            _http = http;
-            _serverKey = cfg["Midtrans:ServerKey"];
-            _baseUrl = cfg["Midtrans:BaseUrl"];
-        }
-        public async Task<string> CreateSnapTransaction(object payload)
-        {
-            var url = $"{_baseUrl}/snap/v1/transactions";
-            var req = new HttpRequestMessage(HttpMethod.Post, url)
-            {
-                Content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json")
-            };
-            var token = Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_serverKey}:"));
-            req.Headers.Authorization = new AuthenticationHeaderValue("Basic", token);
+    private readonly HttpClient _httpClient;
+    private readonly string _serverKey;
 
-            var resp = await _http.SendAsync(req);
-            resp.EnsureSuccessStatusCode();
-            return await resp.Content.ReadAsStringAsync();
-        }
+    public MidtransService(IConfiguration config)
+    {
+        _httpClient = new HttpClient();
+        _serverKey = config["Midtrans:ServerKey"];
+
+        var byteArray = Encoding.UTF8.GetBytes(_serverKey + ":");
+        _httpClient.DefaultRequestHeaders.Authorization =
+            new AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
     }
-      
+
+    public async Task<string> CreateSnapTransaction(object payload)
+    {
+        var json = JsonSerializer.Serialize(payload);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        var response = await _httpClient.PostAsync(
+            "https://app.sandbox.midtrans.com/snap/v1/transactions", content
+        );
+
+        return await response.Content.ReadAsStringAsync();
     }
+}

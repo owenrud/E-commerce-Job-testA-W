@@ -1,124 +1,95 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<TestInterviewApp.Models.Cart>
+
 @{
+    ViewData["Title"] = "Keranjang";
 }
+
 <h2>Keranjang</h2>
-@*Layout Tampilan Kerangka Halaman Keranjang*@
-<div class="container justify-content-center"> 
-        
-        <div class="p-3 col bg-white">
-        @*Layout untuk Tiap Produk*@
 
-                <div class="p-4  row">
+<div class="container justify-content-center">
+    <form asp-action="Checkout" asp-controller="Cart" method="post">
+        <div id="cart-wrapper" class="p-3 col bg-white">
+            @foreach (var items in Model)
+            {
+                <div class="p-4 row cart-item" data-price="@items.harga">
+                    <img class="img-cart" src="~/Pictures/@items.gambar" />
 
-                <img class="img-cart" src="~/Pictures/Product-1.png" />
+                    <div class="col">
+                        <div class="row justify-content-center">
+                            <div class="col-9">
+                                <p>@items.nama</p>
+                            </div>
 
-                @*Layout untuk Detail Produk, Harga, Nama, Jumlah*@
-                <div class="col">
-
-                    <div class="row justify-content-center">
-
-                        <div class="col-10">
-                        <p>Nama Produk</p>
+                            <div class="col">
+                                <p>Harga Satuan: Rp. <span class="unit-price text-info-emphasis fw-semibold">@items.harga.ToString("N0")</span></p>
+                            </div>
                         </div>
 
-                    <div class="col">
-                        <p>Harga Produk disini</p>
-                    </div>
-                    
-                    
-                    </div>
-                
-                    <div class="row">
-                    <div class="col-2  align-items-center">
-                        Jumlah Barang :
-                    </div>
-                    <input class="jumlah" type="number" name="jumlah" id="jumlah" value="1" />
-                    </div>
-                    <p class="py-2 px-1 text-danger fw-semibold">Delete</p>
-                
-                @*Pembatas Layout untuk Detail Produk, Harga, Nama, Jumlah*@
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                Jumlah Barang:
+                            </div>
+                            <div class="col">
+                                <input class="jumlah form-control quantity-input" type="number" min="1" value="1" />
+                            </div>
+                            <div class="align-content-lg-end">
+                                Total: Rp. <span class="item-total text-success fw-bold">0</span>
+                            </div>
+                        </div>
 
+                        <p class="py-2 px-1 text-danger fw-semibold">Delete</p>
+                    </div>
                 </div>
+            }
+
+            <hr />
+            <div class="row mb-3">
+                <div class="col">
+                    <h4>Total Belanja: Rp. <span id="grand-total" class="text-primary fw-bold">0</span></h4>
                 </div>
-        @*End of Template Layout untuk Tiap Produk*@
-        <div class="p-4  row">
-
-            <img class="img-cart" src="~/Pictures/Product-1.png" />
-
-            @*Layout untuk Detail Produk, Harga, Nama, Jumlah*@
-            <div class="col">
-
-                <div class="row justify-content-center">
-
-                    <div class="col-10">
-                        <p>Nama Produk</p>
-                    </div>
-
-                    <div class="col">
-                        <p>Harga Produk disini</p>
-                    </div>
-
-
-                </div>
-
-                <div class="row">
-                    <div class="col-2  align-items-center">
-                        Jumlah Barang :
-                    </div>
-                    <input class="jumlah" type="number" name="jumlah" id="jumlah" value="1" />
-                </div>
-                <p class="py-2 px-1 text-danger fw-semibold">Delete</p>
-
-                @*Pembatas Layout untuk Detail Produk, Harga, Nama, Jumlah*@
-
             </div>
-        </div>
-        <div class="p-4  row">
 
-            <img class="img-cart" src="~/Pictures/Product-1.png" />
+            <!-- 👇 Hidden input for grand total -->
+            <form asp-action="Checkout" asp-controller="Cart" method="post">
+            <input type="hidden" name="grandTotal" id="grandTotalInput" />
 
-            @*Layout untuk Detail Produk, Harga, Nama, Jumlah*@
-            <div class="col">
-
-                <div class="row justify-content-center">
-
-                    <div class="col-10">
-                        <p>Nama Produk</p>
-                    </div>
-
-                    <div class="col">
-                        <p>Harga Produk disini</p>
-                    </div>
-
-
-                </div>
-
-                <div class="row">
-                    <div class="col-2  align-items-center">
-                        Jumlah Barang :
-                    </div>
-                    <input class="jumlah" type="number" name="jumlah" id="jumlah" value="1" />
-                </div>
-                <p class="py-2 px-1 text-danger fw-semibold">Delete</p>
-
-                @*Pembatas Layout untuk Detail Produk, Harga, Nama, Jumlah*@
-
+            <div class="row">
+                <button type="submit" class="btn btn-primary mb-3">Checkout</button>
             </div>
+            </form>
         </div>
-
-            
-
-        
-       
-        @*Pembatas untuk Layout Produk*@
-        <div class="row">
-            <button type="submit" class="btn btn-primary mb-3">Checkout</button>
-        </div>
-        </div>
-  
-        
-
+    </form>
 </div>
-@*End of Layout Tampilan Kerangka Halaman Keranjang*@
+
+@section Scripts {
+    <script>
+        function formatRupiah(number) {
+            return number.toLocaleString('id-ID');
+        }
+
+        function updateCartTotals() {
+            let grandTotal = 0;
+
+            document.querySelectorAll('.cart-item').forEach(item => {
+                const price = parseInt(item.dataset.price);
+                const quantity = parseInt(item.querySelector('.quantity-input').value);
+                const total = price * quantity;
+
+                item.querySelector('.item-total').textContent = formatRupiah(total);
+                grandTotal += total;
+            });
+
+            document.getElementById('grand-total').textContent = formatRupiah(grandTotal);
+
+            // 👇 Set the value in the hidden input for form submission
+            document.getElementById('grandTotalInput').value = grandTotal;
+            console.log(" Grand total set in hidden input:", grandTotal);
+        }
+
+        document.querySelectorAll('.quantity-input').forEach(input => {
+            input.addEventListener('input', updateCartTotals);
+        });
+
+        updateCartTotals(); // Initial run
+    </script>
+}

@@ -1,6 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<TestInterviewApp.Models.Products>
 @{
     ViewData["Title"] = "Produk";
 }
@@ -12,7 +10,12 @@
     </ol>
 </nav>
 @*End of BreadCrumb*@
-
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Message"]
+    </div>
+}
 @*Title Halaman*@
 <h2 class="p-3">Daftar Produk</h2>
 @*End of Title Halaman*@
@@ -23,74 +26,21 @@
         @*Start Content*@
 
         @*Start of Item*@
-
+        @foreach(var items in Model)
+        {
         <div class="p-3 col ">
             <div class="card" style="width: 18rem;">
-                <img src="./Pictures/Product-1.png" class="card-img" alt="...">
+                <img src="./Pictures/@items.gambar" class="card-img" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="Cart/add" class="btn btn-primary">Tambah ke Keranjang</a>
+                    <h5 class="card-title">@items.nama</h5>
+                    <p class="card-text">Price : Rp. @items.harga.ToString("N0")</p>
+                    <a asp-controller="Cart" asp-action="Add" asp-route-id="@items.Id" class="btn btn-primary">Tambah ke Keranjang</a>
                 </div>
             </div>
-        </div>
-
+        </div>    
+        }
         @*End of Item*@
 
-        <div class="p-3 col ">
-            <div class="card" style="width: 18rem;">
-                <img src="./Pictures/Product-2.png" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="Cart/add" class="btn btn-primary">Tambah ke Keranjang</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="p-3 col ">
-            <div class="card" style="width: 18rem;">
-                <img src="./Pictures/Product-3.png" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="Cart/add" class="btn btn-primary">Tambah ke Keranjang</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="p-3 col ">
-            <div class="card" style="width: 18rem;">
-                <img src="./Pictures/Product-4.png" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="Cart/add" class="btn btn-primary">Tambah ke Keranjang</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="p-3 col ">
-            <div class="card" style="width: 18rem;">
-                <img src="./Pictures/Product-5.png" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="Cart/add" class="btn btn-primary">Tambah ke Keranjang</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="p-3 col ">
-            <div class="card" style="width: 18rem;">
-                <img src="./Pictures/Product-6.png" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="Cart/add" class="btn btn-primary">Tambah ke Keranjang</a>
-                </div>
-            </div>
-        </div>
         @*End Content*@
    
     </div>

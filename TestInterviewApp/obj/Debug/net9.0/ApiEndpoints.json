@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "TestInterviewApp.Controllers.PaymentController",
+    "ContainingType": "PaymentController",
     "Method": "CreateSnap",
     "RelativePath": "api/payment/token/snap",
     "HttpMethod": "POST",
