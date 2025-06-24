@@ -1,0 +1,14 @@
+﻿@model TestInterviewApp.Models.Cart
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>Anda Yakin ingin menghapus data ini?</h3>
+
+<p>@Model.nama</p>
+<p>@Model.harga</p>
+
+<form asp-action="Delete" method="Post">
+    <input type="hidden" asp-for="Cart_Id"/>
+    <input type="submit" class="btn btn-danger" value="Delete"/>
+</form>

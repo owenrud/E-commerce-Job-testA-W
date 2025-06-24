@@ -37,7 +37,7 @@
                             </div>
                         </div>
 
-                        <p class="py-2 px-1 text-danger fw-semibold">Delete</p>
+                        <a asp-action="delete" asp-route-id="@items.Cart_Id" class="py-2 px-1 text-danger fw-semibold">Delete</a>
                     </div>
                 </div>
             }
@@ -81,9 +81,9 @@
 
             document.getElementById('grand-total').textContent = formatRupiah(grandTotal);
 
-            // 👇 Set the value in the hidden input for form submission
+            //  Set the value in the hidden input for form submission
             document.getElementById('grandTotalInput').value = grandTotal;
-            console.log(" Grand total set in hidden input:", grandTotal);
+            
         }
 
         document.querySelectorAll('.quantity-input').forEach(input => {

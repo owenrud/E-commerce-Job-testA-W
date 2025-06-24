@@ -56,7 +56,25 @@ namespace TestInterviewApp.Controllers
             TempData["Message"] = "Product added to cart!";
             return RedirectToAction("Index"); // or your cart page
         }
+
+        public async Task <IActionResult> Delete(int id) { 
+        var item = await _context.Carts.FirstOrDefaultAsync(x=> x.Cart_Id == id);
+            return View(item);
+        }
+        [HttpPost, ActionName("Delete")]
+        public async Task <IActionResult> ConfirmDelete(int id)
+        {
+            var item = await _context.Carts.FindAsync(id);
+            if(item != null)
+            {
+                _context.Carts.Remove(item);
+               await _context.SaveChangesAsync();
+
+            }
+            return RedirectToAction("Index");
+        }
     }
+    
     
 
 }

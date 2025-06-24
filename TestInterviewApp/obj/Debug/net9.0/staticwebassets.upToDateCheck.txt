@@ -67,8 +67,8 @@ wwwroot\Pictures\Carousel-3.jpg
 wwwroot\Pictures\Product-1.png
 wwwroot\Pictures\Product-2.png
 wwwroot\Pictures\Product-3.png
-wwwroot\Pictures\Product-5.png
 wwwroot\Pictures\Product-4.png
+wwwroot\Pictures\Product-5.png
 wwwroot\Pictures\Product-6.png
 wwwroot\Pictures\Product-7.png
 D:\Folder Belajar Coding\TestInterviewApp\TestInterviewApp\wwwroot\css\site.css
