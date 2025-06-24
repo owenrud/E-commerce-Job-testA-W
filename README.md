@@ -1,5 +1,5 @@
 ﻿# E-commerce-Job-testA&W
-# Project ini merupakan Project Test Kemampuan untuk proses seleksi A&W dengan menggunakan C# dan ASP .NET Core
+## Project ini merupakan Project Test Kemampuan untuk proses seleksi A&W dengan menggunakan C# dan ASP .NET Core
 ## Project ini mempunyai beberapa Fitur Utama yang harus dibuat Seperti:
 1. Halaman Produk
 2. Halaman Keranjang
